@@ -68,7 +68,13 @@ while ($i > 10) {
     echo "i es igual a " . $i . "<br>";
 } */
 
-$nombres = ["MICHAEL", "SANTIAGO", "DAVID"]
+$nombres = ["MICHAEL", "SANTIAGO", "DAVID"];
+$edad = [
+    "Michael" => 23,
+    "Santiago" => 17,
+    $nombres => 18
+]; 
+
 ?>
 
 
@@ -82,7 +88,7 @@ $nombres = ["MICHAEL", "SANTIAGO", "DAVID"]
     <title>Clase con el scofi</title>
 </head>
 <body>
-    <h1>Que hubo</h1>
+    <h1>Que asdfasd</h1>
     <ul>
         <?php
         foreach ($nombres as $nombre)
