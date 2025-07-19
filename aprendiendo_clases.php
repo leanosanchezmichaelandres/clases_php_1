@@ -21,6 +21,11 @@ class Animal {
     }
 }
 
+function saludar($nombre)
+{
+    echo "Hola " . $nombre;
+}
+
 // Ingredientes
 // Harina
 // Chocolate}
@@ -45,5 +50,7 @@ $leon = new Animal();
 $leon->nombre = "Rey Michael";
 
 // Llamar método saludar()
-$leon->saludar();
+/* $leon->saludar(); */
+saludar("Santiago");
+
 $leon->imprimir_terreno();
